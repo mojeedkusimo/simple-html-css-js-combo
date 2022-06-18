@@ -14,7 +14,12 @@ body {
 
 img {
     height: 100vh;
-    border-radius: 50%;
+    border-radius: 5%;
+}
+
+img#details-img {
+    border-radius: 0%;
+    height: 50vh;
 }
 
 #container {
@@ -40,7 +45,7 @@ button {
 }
 
 button:hover {
-    transition: 0.3s;
+    transition: 0.5s;
     background-color: brown;
     color: white;
     text-decoration: underline;
@@ -48,4 +53,8 @@ button:hover {
 
 p {
     font-size: 20px;
+}
+
+p#details-p {
+    width: 70%;
 }
