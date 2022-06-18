@@ -4,7 +4,9 @@ let imageSources = [
     'benin-ringroad.jpg',
     'lagos-bridge.jpg',
     'lagos-skyline.jpg',
-    'national-theatre.jpg'
+    'national-theatre.jpg',
+    'Jollof-spaghetti.jpg',
+    'kano.jpg'
 ];
 
 // Getting access to button and image element in the HTML document
@@ -15,7 +17,7 @@ let imgTag = document.querySelector("img");
 let counter = 1;
 
 button.addEventListener("click", function() {
-    if ( counter === 4 ) {
+    if ( counter === 6 ) {
         counter = 0;
     }
     imgTag.src="./img/" + imageSources[counter];
